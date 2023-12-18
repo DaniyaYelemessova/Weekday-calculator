@@ -1,7 +1,8 @@
 ## <div align="center">Weekday calculator</div>
 
-#### <div align="center">💻 _Learning project for Test Driven Development 12/16/2023_ </div>
+#### <div align="center">💻 _Learning project for Test Driven Development 12/18/2023_ </div>
 
+**_<p align="right">By Daniya Yelemessova, Hayeong Pyeon, Ermek Abdrazakov_**</p>
 
 <p align="center">
   <img src="images/js.png" alt="js" width="30"/>

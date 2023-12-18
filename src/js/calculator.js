@@ -5,7 +5,7 @@ export default class Calculator {
       "Monday",
       "Tuesday",
       "Wednesday",
-      "Thursday",
+      "Thursday", // reset to this when submit is clicked twice 
       "Friday",
       "Saturday",
     ];

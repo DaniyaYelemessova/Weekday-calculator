@@ -1,6 +1,6 @@
-## <div align="center">Project name</div>
+## <div align="center">Weekday calculator</div>
 
-#### <div align="center">💻 _Learning project for (..................) (date)_ </div>
+#### <div align="center">💻 _Learning project for Test Driven Development 12/16/2023_ </div>
 
 **_<p align="right">By Daniya Yelemessova_**</p>
 

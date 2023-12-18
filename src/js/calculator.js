@@ -22,17 +22,20 @@ export default class Calculator {
     }
 
     calculate(year, month, day) {
+        let result;
         // call 'isValidDate' function to check validity
         if (!this.isValidDate(year, month, day)) {
-            return 'Cannot calculate: INVALID DATE';
+            result = 'Cannot calculate: INVALID DATE';
+        } else {
+            // if valid, proceed to next: 
+            const inputValue = new Date(year, month - 1, day); // because Jan is set to 0
+            // using .getDay() will render numbers from 0 to 6
+            // ex) 0 would be: this.daysOfWeek[0] === 'Sunday'
+            // value from .getDay() = an index
+            const dayOfWeek = this.daysOfWeek[inputValue.getDay()];
+            result = dayOfWeek;
         }
-        // if valid, proceed to next: 
-        const inputValue = new Date(year, month - 1, day); // because Jan is set to 0
-        // using .getDay() will render numbers from 0 to 6
-        // ex) 0 would be: this.daysOfWeek[0] === 'Sunday'
-        // value from .getDay() = an index
-        const dayOfWeek = this.daysOfWeek[inputValue.getDay()];
-        return dayOfWeek;
+        return result;
     }
 }
 

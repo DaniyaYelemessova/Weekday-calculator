@@ -8,7 +8,6 @@
   <img src="images/js.png" alt="js" width="30"/>
 </p>
 
-<div><img src="" alt="screen of the program" width="50%" display="block" margin-left="auto" margin-right="auto"/></div>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -64,7 +63,7 @@ describe('Calculator', () => {
 
 ### <div align="center"> 🤔 _Description:_
 
-
+This JavaScript application allows users to calculate the day of the week for any given date. Users can input a date, and the app will display the corresponding day of the week. The application handles past dates, future dates, and invalid dates, providing notifications when the input is invalid. The use of class syntax ensures a structured implementation, and Test-Driven Development (TDD) principles are followed to develop robust business logic before integrating user interface functionalities.
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
